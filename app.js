@@ -5,7 +5,7 @@ const app = express();
 const empresasRoutes = require('./src/routes/empresa.routes');
 const usuariosRoutes = require('./src/routes/usuario.routes')
 
-app.use(express.urlencoded({ extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.use(cors());

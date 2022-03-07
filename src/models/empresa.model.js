@@ -5,7 +5,7 @@ const EmpresaSchema = Schema({
     nombre: String,
     direccion: String,
     empleados: [{
-        idEmpleado: {type: Schema.Types.ObjectId, ref: 'Empleados'}
+        idEmpleado: { type: Schema.Types.ObjectId, ref: 'Empleados' }
     }]
 });
 
